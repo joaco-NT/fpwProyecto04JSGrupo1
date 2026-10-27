@@ -1,6 +1,12 @@
 import React from 'react';
-import { JuegoPagina } from './pages/JuegoPagina.jsx';
+import { JuegoPagina } from './pages/JuegoPagina';
 
-export default function App() {
-  return <JuegoPagina />;
+export function App() {
+  return (
+    <div>
+      <JuegoPagina />
+    </div>
+  );
 }
+
+export default App;
